@@ -1,0 +1,6 @@
+Priority:
+-------------------------------------------------------
+MEDIUM:   simple menu engine. (need to be designed.)
+MEDIUM:   simple physic engine for pingpong ball. (can be implement anytime.)
+LOW:      multiplayer connection (protocol need to be designed before implementation.)
+HIGH:     finite state machine for game. (can be implement anytime.)
