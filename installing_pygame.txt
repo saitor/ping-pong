@@ -1,6 +1,7 @@
 -- How to install/use Python
 https://www.python.org/downloads/windows/
-Latest version of Python 3.5.0 is recommended.
+Latest version of Python 3.5.1 is recommended.
+Install the Python version for your OS(32 or 64 bit).
 
 -- How to install PyGame
 Install Wheel with following command line in Windows CMD:
