@@ -9,6 +9,7 @@ MAX_FORWARD_SPEED = 10
 MAX_REVERSE_SPEED = 5
 BGCOLOR = (20,50,80)
 
+pygame.init();
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
 while 1:
