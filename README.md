@@ -1,5 +1,6 @@
-# ping-pong
-Make a simple ping pong game for 2 players
+#Make a simple ping pong game for 2 players
 
-# current version
+current version: 1.0
+
+usage:
 pongv1.0.py
