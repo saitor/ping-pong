@@ -3,7 +3,6 @@
 Description:
 Make a simple ping pong game for 2 players
 
-current version: 1.0
+|current version|usage|
+|1.0|pongv1.0.py|
 
-usage:
-pongv1.0.py
