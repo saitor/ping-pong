@@ -23,3 +23,4 @@ Description:
   usage: 
   pongv1.0.py
 
+5.quit
