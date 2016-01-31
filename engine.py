@@ -10,10 +10,10 @@ from OpenGL.GLU import *
 # user modules
 
 # game states
-import ppgame
+import ppgame, ponggl
 
 GWindowSize = (640,480)
-GCurrentState = ppgame # initial state
+GCurrentState = ponggl # initial state
 GLoop = True
 
 def fnChangeGameState(state):
@@ -49,7 +49,10 @@ def main():
 
         # EVENTS
         for event in pygame.event.get():
-            GCurrentState.fnEvent(event)
+            if event.type == QUIT:
+                GLoop = False
+            else:
+                GCurrentState.fnEvent(event)
         
         # UPDATE
         GCurrentState.fnUpdate(deltaTime)
@@ -63,7 +66,6 @@ def main():
 
     pygame.quit()
     quit()
-
     return
 
 if __name__ == '__main__': main()
